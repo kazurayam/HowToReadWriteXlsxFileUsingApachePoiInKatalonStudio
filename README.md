@@ -2,7 +2,9 @@
 
 This is a small Katalon Studio for demonstration purpose. You can download the zip of this project form the [Release](https://github.com/kazurayam/HowToReadWriteXlsxFileUsingApachePoiInKatalonStudio/releases) page, unzip it, open it with your local Katalon Studio.
 
-I developed this project using Katalon Studio v8.2.0 on Mac. This project is not KS version specific, not OS-dependent. It should work in every version of Katalon Studio, on Windows as well.
+I developed this project using Katalon Studio v8.2.0 on Mac. This project is not KS version specific, not OS-dependent. It should work on every version of Katalon Studio, on Windows as well.
+
+## Description
 
 This project provides a working Test Case script which 
 1. reads an Excel file `./Employee.xlsx`, print the data in the sheet into the console

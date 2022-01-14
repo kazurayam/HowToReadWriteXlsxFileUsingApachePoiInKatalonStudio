@@ -43,7 +43,7 @@ for (Row row in sheet) {
 	print "\n"
 }
 
-	
+
 // writing data into the sheet
 Map<String, Object[]> newData = new HashMap<>()
 newData.put("7", [ 7d, "Sonya", "75K", "SALES", "Rupert"])
@@ -95,7 +95,7 @@ int findLastRowNum(Sheet sheet) {
 		rx += 1
 		Cell cell = row.getCell(0)
 		if (cell.getCellType() == Cell.CELL_TYPE_NUMERIC) {
-			index = rx		
+			index = rx
 		}
 	}
 	return index
