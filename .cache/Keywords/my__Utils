@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "92909F5E12A60860F172CC776D8F0B57",
+  "keywordClasses": [
+    {
+      "name": "my.Utils",
+      "keywordMethods": [
+        {
+          "name": "showFileChooser",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
