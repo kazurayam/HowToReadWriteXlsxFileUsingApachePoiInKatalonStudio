@@ -28,18 +28,19 @@ for (Row row in sheet) {
 	for (Cell cell in row) {
 		switch (cell.getCellType()) {
 			case Cell.CELL_TYPE_STRING:
-				println(cell.getStringCellValue() + "\t")
+				print(cell.getStringCellValue() + "\t")
 				break
 			case Cell.CELL_TYPE_NUMERIC:
 				print(cell.getNumericCellValue() + "\t")
 				break
 			case Cell.CELL_TYPE_BOOLEAN:
-				System.out.print(cell.getBooleanCellValue() + "\t")
+				print(cell.getBooleanCellValue() + "\t")
 				break
 			default:
 				break
 		}
 	}
+	print "\n"
 }
 
 	
